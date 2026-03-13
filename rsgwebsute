@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSG League Stats</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background:#f2f2f2;
+margin:0;
+color:#1f2a44;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+background:white;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.menu-btn{
+font-size:24px;
+}
+
+.card{
+background:white;
+margin:20px;
+padding:30px;
+border-radius:14px;
+text-align:center;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card div{
+padding:18px;
+font-size:20px;
+font-weight:600;
+}
+
+.section{
+margin:25px;
+}
+
+h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+}
+
+th, td{
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+
+th{
+background:#f7f7f7;
+}
+
+.highlight{
+background:#cfe0ec;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">RSG</div>
+<div class="menu-btn">☰</div>
+</header>
+
+<div class="card">
+<div>rankings</div>
+<div>scores</div>
+<div>stats</div>
+<div>rulebook</div>
+<div>schoolbooks</div>
+</div>
+
+<div class="section">
+
+<h2>quarterback stats</h2>
+
+<table>
+<tr>
+<th>#</th>
+<th>TM</th>
+<th>username</th>
+<th class="highlight">PTS</th>
+<th>YDs</th>
+<th>TD</th>
+<th>INT</th>
+</tr>
+
+<tr><td>1</td><td></td><td></td><td class="highlight"></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td class="highlight"></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td class="highlight"></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td class="highlight"></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td class="highlight"></td><td></td><td></td><td></td></tr>
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>wide receiver stats</h2>
+
+<table>
+<tr>
+<th>#</th>
+<th>TM</th>
+<th>username</th>
+<th class="highlight">REC</th>
+<th>YDs</th>
+<th>TD</th>
+</tr>
+
+<tr><td>1</td><td></td><td></td><td class="highlight"></td><td></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td class="highlight"></td><td></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td class="highlight"></td><td></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td class="highlight"></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td class="highlight"></td><td></td><td></td></tr>
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>defensive back stats</h2>
+
+<table>
+<tr>
+<th>#</th>
+<th>TM</th>
+<th>username</th>
+<th class="highlight">INT</th>
+<th>Tackles</th>
+</tr>
+
+<tr><td>1</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>defensive end stats</h2>
+
+<table>
+<tr>
+<th>#</th>
+<th>TM</th>
+<th>username</th>
+<th class="highlight">Sacks</th>
+<th>Tackles</th>
+</tr>
+
+<tr><td>1</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>linebacker stats</h2>
+
+<table>
+<tr>
+<th>#</th>
+<th>TM</th>
+<th>username</th>
+<th class="highlight">Tackles</th>
+<th>Sacks</th>
+</tr>
+
+<tr><td>1</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td class="highlight"></td><td></td></tr>
+</table>
+
+</div>
+
+</body>
+</html>
